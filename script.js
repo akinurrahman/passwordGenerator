@@ -1,4 +1,4 @@
-// 3:30 to 
+
 // selectors 
 const upperCase = document.querySelector('#upper-case')
 const lowerCase = document.querySelector('#lower-case')
@@ -48,7 +48,7 @@ const generatePassword = (password = "") =>{
       }
 }
 
-generatePassword()
+
 btn.addEventListener('click', ()=>{
     generatePassword()
 })
